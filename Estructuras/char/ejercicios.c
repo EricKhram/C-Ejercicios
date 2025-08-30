@@ -38,13 +38,13 @@ void contarletra() {
     printf("ingresa una palabra: ");
     scanf(" %s", &palabra);
     printf("ingresa la vocal a buscar en tu palabra: ");
-    scanf(" %s", &letra);
+    scanf(" %c", &letra);
     for (int i = 0; palabra[i] != '\0'; i++) {
         if (palabra[i] == letra) {
             contador++;
         }
     }
-    printf("la letra %c aparece %d veces en la palabra %s \n",letra,contador,palabra);
+    printf("la letra '%c' aparece %d veces en la palabra '%s' \n",letra,contador,palabra);
 }
 
 void verificarnumero() {
@@ -59,10 +59,11 @@ void verificarnumero() {
 }
 
 int main() {
-    /* ascii();
-    verificacion(); 
-    MayMin(); 
-    contarletra(); */
-    verificarnumero();
+    // para ejecutar cualquier ejercicio quitar el doble slash
+    //ascii();
+    //verificacion(); 
+    //MayMin(); 
+    //contarletra(); 
+    //verificarnumero();
     return 0;
 }
