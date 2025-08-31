@@ -59,7 +59,7 @@ void verificarnumero() {
 }
 
 int main() {
-    // para ejecutar cualquier ejercicio quitar el doble slash
+    // para ejecutar cualquier ejercicio borrar comentario '//'
     //ascii();
     //verificacion(); 
     //MayMin(); 
